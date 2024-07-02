@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome CSS (for the icon) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- AOS CSS (if needed, for animations) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Page</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="AR construction-home page(1200 x 600 px) (1).png" alt="" id="love">
+        </div>
+        <div class="col-lg-6">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="menu"><i class="fas fa-bars"></i> MENU</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto"> <!-- ml-auto aligns items to the right -->
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      
+    </header>
+    <div class="row">
+        <div class="col">
+          <div>
+              <img src="contact page banner(1325 x 550 px).svg" alt="" style="width: 100%;">
+          </div>
+        </div>
+    </div><br><br>
+    <div class="row">
+        <div class="col-12">
+            <div>
+                <center><h2 style="font-size: 250%;">We're <span style="color: #CBAB00; font-size: 130%;">Listening!</span></h2></center><br>
+                <center><p style="padding-left: 15%; padding-right: 15%; line-height: 28px; word-spacing: 5px; text-align: center;"><b>"We're <span style="color: #CBAB00;">Listening"</b></span>  is more than a tagline; it's our commitment to fostering a genuine connection with you. Our team understands that the key to meaningful collaboration is a two-way conversation. Your insights shape our journey, and your challenges drive us to improve. So, don't hesitate – drop us a message, and let's start a dialogue. Together, we can create a community where every voice is heard, valued, and respected. At <b>ARKHITEKTON</b>, we believe in the power of listening, because your voice is our inspiration.</p></center>
+            </div>
+        </div>
+    </div>
+    <div class="row">   
+      <div class="container" id="sch">
+        <center><h1><span style="color: #CBAB00;"><b>CONTACT</b> US</span></h1><br></center>
+        <form id="contactForm">
+          <div class="form-group">
+            <input type="text" class="form-control" id="name" placeholder=" ">
+            <label for="name" class="floating-label">Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder=" ">
+            <label for="email" class="floating-label">Email</label>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="message" rows="4" placeholder=" "></textarea>
+            <label for="message" class="floating-label">Message</label>
+          </div>
+          <button type="submit" id="bpcl">Submit</button>
+        </form>
+      </div>
+    </div><br><br>
+    <div class="row">
+        <div class="col">
+            <img src="contact page down banner(1250 x 400 px).svg" alt="" style="width: 100%;">
+        </div>
+    </div><br><br><br>
+    <footer class="footer">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2024 Your Blog. All rights reserved.</p>
+          <p>Designed with <span class="heart">&hearts;</span> by Your Name</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap and related scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom script for form submission -->
+    <script>
+      document.getElementById("contactForm").addEventListener("submit", function(event) {
+          event.preventDefault();
+          console.log("Form submitted!");
+          console.log("Name: " + document.getElementById("name").value);
+          console.log("Email: " + document.getElementById("email").value);
+          console.log("Message: " + document.getElementById("message").value);
+      });
+    </script>
+  </div>
+</body>
+</html>

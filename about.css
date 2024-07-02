@@ -1,0 +1,226 @@
+#love{
+    width: 100%;
+  }
+  
+       .nav-item{
+          margin-right: 10px;
+          padding: 20px;
+          text-align: center;
+  
+       }
+       @media(max-width:768px)
+       {
+          .navbar-toggler{
+           margin-top: 28px;
+           margin-left: auto;
+           margin-right:auto;
+           background-color: #CBAB00;
+           height: 50px;
+           width: 100%;
+          }
+       }
+       @media(max-width:576px)
+       {
+          .navbar-toggler{
+           margin-top: 10px;
+          }
+       }
+
+#recl{
+	padding: 10px;
+}
+
+
+
+#rvnl{
+	width: 60px;
+	height: 10px;
+}
+@media(max-width:768px){
+     #rvnl1{
+        height: 0px;
+        width: 0px;
+     }
+}
+
+
+
+    #motilal {
+      transition: margin-right .5s;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+
+
+
+    #iii {
+      background-color: #CBAB00;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.8s;
+      margin-right: 130px;
+
+    }
+
+    #iii:hover {
+      background-color: #000000;
+    }
+
+    #iii i {
+      margin-right: 8px;
+    }
+	#tarc{
+		
+        width: 100%;
+    
+	}
+    
+    @media (min-width:768px)
+    {
+        #tarc{
+		    
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    @media (min-width:1024px)
+    {
+        #tarc{
+		
+            width: 100%;
+            margin-top: 100px;
+        
+        }
+    }
+
+	#ongc{
+		padding: 40px;
+		background-color: #000000;
+	}
+	.icon{
+		margin-left:auto;
+		margin-right:auto;
+		width: 100px;
+	}
+
+	.ports{
+		margin-left: auto;
+		margin-right: auto;
+		width: 100px;
+        
+		
+	}
+
+.aligning{
+    text-align: center;
+}
+
+#orange{
+   /* background-image: url(arconstructions\ \ \(1\)\(1325\ x\ 500\ px\).svg); */
+	/* opacity: 0.2;  */
+	position: relative;
+	padding: 18%;
+}
+
+
+#orange::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://t4.ftcdn.net/jpg/00/68/63/23/360_F_68632352_kmHLwFc2rQLmnKqn6gM0bhOPqxRTx8sY.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+  /* height: 100%; */
+}
+
+#orange h4 {
+  position: relative;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+#apple{
+   /* background-image: url(arconstructions\ \ \(1\)\(1325\ x\ 500\ px\).svg); */
+	/* opacity: 0.2;  */
+	position: relative;
+	padding: 18%;
+}
+
+
+#apple::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://www.iter.org/img/resize-900-90/www/content/com/Lists/WebText_2014/Attachments/127/platform_sep_2023_vertical_web.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+  /* height: 100%; */
+}
+
+#apple h4 {
+  position: relative;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+#pear{
+   /* background-image: url(arconstructions\ \ \(1\)\(1325\ x\ 500\ px\).svg); */
+	/* opacity: 0.2;  */
+	position: relative;
+	padding: 18%;
+}
+
+
+#pear::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://worldsteel.org/wp-content/uploads/Construction-buildings-and-steel-690x360.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+  /* height: 100%; */
+}
+
+#pear h4 {
+  position: relative;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.footer {
+  background-color: #343a40;
+  color:#CBAB00; 
+  padding: 3%;
+  
+  bottom: 0;
+  width: 100%;
+}
+
+.row{
+  --bs-gutter-x:0 !important
+}

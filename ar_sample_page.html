@@ -1,0 +1,651 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Side Navigation Bar</title>
+  
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    #sidebar {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+
+    #sidebar a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+
+    #sidebar a:hover {
+      color: #f1f1f1;
+    }
+
+    #sidebar .closebtn {
+      position: absolute;
+      top: 0;
+      left: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    #motilal {
+      transition: margin-left .5s;
+   
+      padding-left: 55%;
+      padding-top: 3%;
+     
+    }
+
+    #iii {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    #iii:hover {
+      background-color: #45a049;
+    }
+
+  
+    #iii i {
+      margin-right: 8px;
+    }
+
+    header {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #380000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2%;
+}
+
+#love{
+    width: 8%;
+    margin-left: 50px;
+}
+  </style>
+</head>
+<body>
+<header>
+    <img src="AR_construction.jpg" alt=""  id="love">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+      <div id="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <div class="col-md-9" id="motilal">
+        
+     <button id="iii" onclick="openNav()"><i class="fa-solid fa-bars"></i> Open Sidebar</button>
+    </div>
+  </div>
+</div>
+</header>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+  function openNav() {
+    document.getElementById("sidebar").style.width = "450px";
+    document.getElementById("main").style.marginLeft = "";
+  }
+
+  function closeNav() {
+    document.getElementById("sidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+</script>
+
+</body>
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diagonal Cut Navigation Bar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    nav {
+      background: linear-gradient(to bottom right, #3498db 49.5%, transparent 49.5%, transparent 100%);
+      padding: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    li {
+      margin: 0 15px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal Cut Navigation Bar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    nav {
+      position: relative;
+      background-color: #3498db; 
+      padding: 15px;
+      overflow: hidden;
+    }
+
+    nav::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 20px; 
+      height: 100%;
+      background: linear-gradient( transparent 50%, #fff 75%); 
+      z-index: 1;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+
+    li {
+      margin: 0 15px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+</body>
+</html>
+ -->
+
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+     
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+     
+        nav {
+            background-color: #333; 
+            color: white;
+            padding: 10px; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+ 
+        #logo {
+            max-width: 100px;
+        }
+
+      
+        #menu-button {
+            background-color: transparent;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+  
+    <nav>
+       
+        <img src="your-logo.png" alt="Logo" id="logo">
+
+        <button id="menu-button" onclick="openNav()">MENU</button>
+    </nav>
+
+    <script>
+        function openNav() {
+          
+            console.log('Menu opened!');
+        }
+    </script>
+
+</body>
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container-fluid {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #photoGallery {
+            transform: rotate(-90deg) translateY(-100%);
+            transform-origin: right top;
+            display: flex;
+            flex-direction: row; 
+            height: 100vh;
+            overflow-y: scroll;
+            scrollbar-width: none; 
+            -ms-overflow-style: none;  
+        }
+
+        #photoGallery::-webkit-scrollbar {
+            display: none; 
+        }
+
+        .photo {
+           
+            max-width: 100vw;
+            height: auto;
+            margin-bottom: 10px; 
+        }
+
+      
+    </style>
+</head>
+<body>
+  <h1> photo gallery</h1>
+
+<div class="container-fluid">
+    <div id="photoGallery" class="row flex-nowrap">
+       
+        <img src="AR construction-home page(1200 x 600 px) (1).png" alt="">
+        <img src="arconstructions  (1)(1325 x 500 px).svg" alt="">
+      
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      const gallery = document.getElementById('photoGallery');
+      const imageUrls = [
+          'https://via.placeholder.com/600x400?text=Photo+1',
+          'https://via.placeholder.com/600x400?text=Photo+2',
+       
+      ];
+
+      imageUrls.forEach(url => {
+          let img = document.createElement('img');
+          img.src = url;
+          img.classList.add('img-fluid');
+          gallery.appendChild(img);
+      });
+  });
+</script>
+
+
+</body>
+</html> -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Scrolling Photo Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .photo-gallery {
+            display: flex;
+            overflow-x: auto;
+            padding: 20px 0;
+            scroll-behavior: smooth;
+        }
+
+        .photo-gallery img {
+            flex: 0 0 auto;
+            width: 600px; 
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .photo-gallery::-webkit-scrollbar {
+            display: none; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div id="photoGallery" class="photo-gallery">
+      
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const gallery = document.getElementById('photoGallery');
+        const imageUrls = [
+            'https://via.placeholder.com/600x400?text=Photo+1',
+            'https://via.placeholder.com/600x400?text=Photo+2',
+            'https://via.placeholder.com/600x400?text=Photo+1',
+            'https://via.placeholder.com/600x400?text=Photo+2',
+            'https://via.placeholder.com/600x400?text=Photo+1',
+            'https://via.placeholder.com/600x400?text=Photo+2',
+         
+        ];
+
+        imageUrls.forEach(url => {
+            let img = document.createElement('img');
+            img.src = url;
+            img.classList.add('img-fluid');
+            gallery.appendChild(img);
+        });
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+ -->
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+  
+     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+     <style>
+
+         @media (max-width: 992px) { 
+             .navbar-collapse {
+                 position: fixed;
+                 top: 0;
+                 right: 0;
+                 height: 100vh;
+                 width: 300px; 
+                 transform: translateX(100%);
+                 transition: transform 0.3s ease-in-out;
+             }
+             .navbar-collapse.show {
+                 transform: translateX(0);
+             }
+             .navbar-toggler {
+                 margin-left: auto;
+             }
+         }
+
+         nav {
+        display: flex;
+        justify-content: center;
+
+        padding: 15px 20px;
+        }
+        .navbar-nav{
+            margin-right: 30%;
+            margin-top: 2%;
+        }
+        .navbar-brand{
+
+            font-weight: bold;
+            font-size: 1.5rem;
+            background-color: black;
+            border-radius: 50px;
+            padding: 5%;
+            margin-left: 30%;
+            margin-top: 5%;
+
+        }
+
+        nav a {
+        color: #000000; 
+        text-decoration: none;
+        padding: 15px 20px;
+        display: inline-block;
+        transition: background-color 0.8s ease;
+  
+        margin-right: 40px;
+        padding-right: 20px;
+        margin-left: 30%;
+       font-family: cursive;
+        
+        }
+     </style>
+ </head>
+ <body>
+ 
+ <nav class="navbar navbar-expand-lg">
+     <div class="container-fluid">
+         <button class="navbar-toggler" type="button">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav ms-auto">
+                 <li class="nav-item">
+                     <a class="nav-link" href="#www" style="color: black;">Home</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="doctor.html" style="color: black;">Doctor</a> 
+                 </li>
+                
+             </ul>
+         </div>
+     </div>
+ </nav>
+ 
+ 
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+ <script>
+     document.addEventListener('DOMContentLoaded', function () {
+         const navbarToggler = document.querySelector('.navbar-toggler');
+         const navbarMenu = document.querySelector('.navbar-collapse');
+ 
+         navbarToggler.addEventListener('click', function () {
+             navbarMenu.classList.toggle('show');
+         });
+     });
+ </script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+ </body>
+ </html>
+  -->
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .navbar {
+      background-color: #333;
+      padding: 15px;
+      color: #fff;
+      text-align: center;
+    }
+
+    #navbarNav {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .nav-link {
+      color: #fff !important;
+    }
+
+    @media (max-width: 767px) {
+      .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #333;
+        transition: left 0.3s ease;
+        padding-top: 60px;
+      }
+
+      .navbar-toggler-icon {
+        color: #fff;
+      }
+
+      .navbar-toggler {
+        color: #fff;
+      }
+
+      .navbar-collapse.show {
+        left: 0;
+      }
+
+      .nav-link {
+        display: block;
+        padding: 10px;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

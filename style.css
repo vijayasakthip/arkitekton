@@ -1,0 +1,249 @@
+#love{
+  width: 100%;
+}
+
+     .nav-item{
+        margin-right: 10px;
+        padding: 20px;
+        text-align: center;
+
+     }
+     @media(max-width:768px)
+     {
+        .navbar-toggler{
+         margin-top: 28px;
+         margin-left: auto;
+         margin-right:auto;
+         background-color: #CBAB00;
+         height: 50px;
+         width: 100%;
+        }
+     }
+     @media(max-width:576px)
+     {
+        .navbar-toggler{
+         margin-top: 10px;
+        }
+     }
+   
+#conimage{
+    
+  height: 100%;
+  width: 100%;
+}
+@media(max-width:450px)
+{
+  #conimage{
+    
+    height: 100%;
+    width: 100%;
+    margin-right:auto;
+    margin-left: auto;
+  } 
+}
+
+
+
+
+
+  .hudco{
+    padding: 6%;
+    padding-left: 10%;
+  }
+
+
+
+  #minie{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(swipe\ up\ banner\ 1\(1250\ x\ 600\ px\).svg);
+    background-attachment: fixed;
+    color: transparent;
+
+  }
+@media (max-width:350px){
+    #minie{
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-image: url(swipe\ up\ banner\ 1\(1250\ x\ 600\ px\).svg);
+        background-attachment: fixed;
+        color: transparent;
+    
+      }
+}
+  .containers{
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url(swipe\ up\ banner\ 1\(1250\ x\ 600\ px\).svg); */
+    background-image: url(interiors\ swipe\ up\ banner\(1\).svg);
+    background-attachment: fixed;
+    color: transparent;
+  }
+
+  #epl{
+  color: #CBAB00;
+  
+  }
+
+ 
+
+
+#rvnl
+{
+    display: block;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+   
+
+}
+
+  @media (max-width: 350px) {
+  #rvnl {
+    display: block;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 15px;
+  }
+}
+
+#irfc{
+    display: block;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+  
+
+     }
+@media (max-width: 350px) {
+  #irfc {
+    display: block;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 10px;
+  }
+}
+
+  #epl:hover{
+   cursor: pointer;
+   color: black;
+  }
+
+  #infy{
+    background-color: beige;
+    margin: 0;
+    width: 100%;
+  }
+
+  
+.footer {
+  background-color: #343a40;
+  color:#CBAB00; 
+  padding: 3%;
+  
+  bottom: 0;
+  width: 100%;
+}
+
+#kam{
+    background-color: #000000;/* Green background color */
+    color: white; /* White text color */
+    padding: 1.5%; /* Padding for the button */
+    /* font-size: 110%;  */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    /* Add any additional styles to make it unique */
+}
+
+#kam:hover{
+    background-color: #CBAB00;
+    cursor: pointer;
+}
+
+#sidebar {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+
+    #sidebar a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #818181;
+      display: block;
+      transition: 0.6s;
+    }
+
+    #sidebar a:hover {
+      color: #f1f1f1;
+    }
+
+    #sidebar .closebtn {
+      position: absolute;
+      top: 0;
+      left: 25px;
+      font-size: 36px;
+      margin-right: 50px;
+    }
+
+    #motilal {
+      transition: margin-right .5s;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+
+   
+
+    #iii {
+      background-color: #CBAB00;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.8s;
+      margin-right: 130px;
+    }
+
+    #iii:hover {
+      background-color: #000000;
+    }
+
+
+    #iii i {
+      margin-right: 8px;
+    }
+
+    @media only screen and (max-width: 600px) {
+  #kkk {
+    width: 50ex;
+    margin-top: 40px;
+    
+  }
+
+
+
+
+   
+}
